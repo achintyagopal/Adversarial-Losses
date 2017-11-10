@@ -1,0 +1,5 @@
+Goal: Train a classification model on MNIST, where instead of using Cross Entropy Loss, an adversarial loss is used. The adversarial loss (the discriminator model) takes in the correct class and the predicted class and has to predict which is correct and which isn't.
+
+After running only 10 epochs, the model is able to get to 64.73% accuracy from only 14% even after 6 epochs. 
+
+Future goal: Can a model as simple as this be used to measure how well a GAN technique performs. So, the goal is to see how well WGANS work in this, mini-batch, etc.
